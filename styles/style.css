@@ -1,6 +1,7 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
+  font-size: 18px;
   background-color: var(--background-color);
   background-image: var(--background-image);
   background-repeat: no-repeat;
@@ -43,6 +44,26 @@
   min-block-size: 668px;
 }
 
+.header__decor {
+  position: absolute;
+  align-items: center;
+  color: var(--accent-color);
+  line-height: 25px;
+  inset-inline-end: 20px;
+  inset-block-start: 10px;
+}
+
+.header__decor::after {
+  content: '';
+  display: inline-block;
+  margin-inline-start: 10px;
+  border-radius: 50%;
+  box-shadow: 0 0 4px 2px var(--accent-color);
+  background-color: var(--accent-color);
+  inline-size: 9px;
+  block-size: 9px;
+}
+
 .header__theme-menu {
 
 }
@@ -78,10 +99,10 @@
 }
 
 .gallery__image {
+  object-fit: cover;
   inline-size: 100%;
   block-size: 100%;
   max-block-size: 100%;
-  object-fit: cover;
 }
 
 .footer {
