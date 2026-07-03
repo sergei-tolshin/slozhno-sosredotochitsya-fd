@@ -1,12 +1,14 @@
-/*
-  Специально для тёмной темы при наличии класса,
-  здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 :root.theme-dark {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --page-bg-image: url(../images/cover-image-dark.png);
+  --page-bg-color: var(--dark-navy);
+  --header-title-text-color: var(--purple);
+  --footer-title-text-color: var(--purple);
+  --decorated-zone-border-color: var(--hot-pink);
+  --title-decor-text-color: var(--dark-navy);
+  --title-decor-bg-color: var(--hot-pink);
+  --content-title-text-color: var(--hot-pink);
+  --accent-color: var(--hot-pink);
+  --card-text-color: var(--rose-pink);
+  --button-text-color: var(--hot-pink);
+  --button-border-hover-color: var(--hot-pink-40);
 }

@@ -1,0 +1,12 @@
+:root {
+  --purple: #DB00FF;
+  --hot-pink: #FF0070;
+  --soft-pink: #FF8DCB;
+  --rose-pink: #F1B2CE;
+  --light-pink: #FFC2E6;
+  --pale-pink: #fff1f7;
+  --dark-navy: #000028;
+  --charcoal-gray: #353430;
+  --hot-pink-40: rgb(255, 0, 112, 0.4);
+  --charcoal-gray-40: rgb(53, 52, 48, 0.4);
+}

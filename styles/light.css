@@ -1,12 +1,31 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 :root.theme-light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --page-bg-image: url(../images/cover-image-light.png);
+  --page-bg-color: var(--pale-pink);
+  --header-title-text-color: var(--light-pink);
+  --footer-title-text-color: var(--light-pink);
+  --decorated-zone-border-color: var(--charcoal-gray);
+  --title-decor-text-color: var(--charcoal-gray);
+  --title-decor-bg-color: var(--soft-pink);
+  --content-title-text-color: var(--charcoal-gray);
+  --accent-color: var(--soft-pink);
+  --card-text-color: var(--charcoal-gray);
+  --button-text-color: var(--charcoal-gray);
+  --button-border-hover-color: var(--charcoal-gray-40);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --page-bg-image: url(../images/cover-image-light.png);
+    --page-bg-color: var(--pale-pink);
+    --header-title-text-color: var(--light-pink);
+    --footer-title-text-color: var(--light-pink);
+    --decorated-zone-border-color: var(--charcoal-gray);
+    --title-decor-text-color: var(--charcoal-gray);
+    --title-decor-bg-color: var(--soft-pink);
+    --content-title-text-color: var(--charcoal-gray);
+    --accent-color: var(--soft-pink);
+    --card-text-color: var(--charcoal-gray);
+    --button-text-color: var(--charcoal-gray);
+    --button-border-hover-color: var(--charcoal-gray-40);
+  }
 }

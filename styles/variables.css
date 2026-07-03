@@ -1,10 +1,15 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
 :root {
   --main-font: 'IBM Plex mono';
-  --background-image: url(../images/cover-image-dark.png);
-  --background-color: #000028;
-  --accent-color: #ff0070;
+  --page-bg-image: url(../images/cover-image-dark.png);
+  --page-bg-color: var(--dark-navy);
+  --header-title-text-color: var(--purple);
+  --footer-title-text-color: var(--purple);
+  --decorated-zone-border-color: var(--hot-pink);
+  --title-decor-text-color: var(--dark-navy);
+  --title-decor-bg-color: var(--hot-pink);
+  --content-title-text-color: var(--hot-pink);
+  --accent-color: var(--hot-pink);
+  --card-text-color: var(--rose-pink);
+  --button-text-color: var(--hot-pink);
+  --button-border-hover-color: var(--hot-pink-40);
 }
