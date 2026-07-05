@@ -142,7 +142,7 @@
   line-height: 23.4px;
 }
 
-.content__card-list {
+.content__card-block {
   display: grid;
   grid-template-columns: 1fr;
   gap: 20px;
@@ -273,20 +273,12 @@
     grid-column: 1;
   }
 
-  .content__card-list {
+  .content__card-block {
     grid-column: 2;
   }
 
-  .what .content__card-list {
+  .what .content__card-block {
     grid-column: 1 / -1;
-  }
-
-  .how {
-    grid-template-rows: auto auto;
-  }
-
-  .how .content__title {
-    grid-row: 1 / -1;
   }
 
   .in_pictures {
@@ -331,7 +323,7 @@
     flex-direction: row;
   }
 
-  .what .content__card-list {
+  .what .content__card-block {
     grid-template-columns: repeat(3, 1fr);
   }
 }
