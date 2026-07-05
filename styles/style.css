@@ -50,6 +50,7 @@
   align-items: center;
   color: var(--accent-color);
   line-height: 25px;
+  text-transform: uppercase;
   inset-inline-end: 20px;
   inset-block-start: 10px;
 }
