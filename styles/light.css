@@ -14,10 +14,6 @@
   --button-border-hover-color: var(--charcoal-gray-40);
 }
 
-.theme-light .header__decor {
-  display: none;
-}
-
 @media (prefers-color-scheme: light) {
   :root {
     --header-decor-display: none;
