@@ -1,4 +1,5 @@
 :root.theme-light {
+  --header-decor-display: none;
   --page-bg-image: url(../images/cover-image-light.png);
   --page-bg-color: var(--pale-pink);
   --header-title-text-color: var(--light-pink);
@@ -13,8 +14,13 @@
   --button-border-hover-color: var(--charcoal-gray-40);
 }
 
+.theme-light .header__decor {
+  display: none;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
+    --header-decor-display: none;
     --page-bg-image: url(../images/cover-image-light.png);
     --page-bg-color: var(--pale-pink);
     --header-title-text-color: var(--light-pink);

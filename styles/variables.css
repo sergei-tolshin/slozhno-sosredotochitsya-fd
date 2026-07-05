@@ -1,5 +1,6 @@
 :root {
   --main-font: 'IBM Plex mono';
+  --header-decor-display: block;
   --page-bg-image: url(../images/cover-image-dark.png);
   --page-bg-color: var(--dark-navy);
   --header-title-text-color: var(--purple);

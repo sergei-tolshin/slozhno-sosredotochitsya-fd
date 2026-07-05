@@ -1,4 +1,5 @@
 :root.theme-dark {
+  --header-decor-display: block;
   --page-bg-image: url(../images/cover-image-dark.png);
   --page-bg-color: var(--dark-navy);
   --header-title-text-color: var(--purple);
